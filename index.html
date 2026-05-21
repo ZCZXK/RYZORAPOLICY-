@@ -1,49 +1,112 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RYZORA Policy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RYZORA</title>
 
-  <style>
-    body{
-      background:#0f0f17;
-      color:white;
-      font-family:Arial,sans-serif;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      margin:0;
-    }
+<style>
 
-    .box{
-      text-align:center;
-      background:#171727;
-      padding:40px;
-      border-radius:20px;
-      box-shadow:0 0 20px rgba(88,101,242,0.4);
-    }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-    a{
-      display:block;
-      margin:15px;
-      color:#5865F2;
-      text-decoration:none;
-      font-size:20px;
-    }
-  </style>
+body{
+background:#0b0b13;
+font-family:Arial,sans-serif;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.card{
+width:100%;
+max-width:550px;
+background:#151522;
+border-radius:25px;
+padding:45px;
+text-align:center;
+box-shadow:0 0 35px rgba(88,101,242,0.5);
+}
+
+.logo{
+width:130px;
+height:130px;
+border-radius:50%;
+margin-bottom:20px;
+border:4px solid #5865F2;
+object-fit:cover;
+box-shadow:0 0 25px rgba(88,101,242,0.8);
+}
+
+h1{
+font-size:45px;
+margin-bottom:10px;
+color:#5865F2;
+}
+
+p{
+color:#b8b8d1;
+margin-bottom:35px;
+font-size:17px;
+}
+
+.btn{
+display:block;
+text-decoration:none;
+background:#5865F2;
+color:white;
+padding:16px;
+border-radius:15px;
+margin:18px 0;
+font-size:18px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#4752c4;
+transform:scale(1.03);
+}
+
+.footer{
+margin-top:30px;
+color:#777;
+font-size:14px;
+}
+
+</style>
 </head>
 
 <body>
 
-<div class="box">
-  <h1>RYZORA</h1>
+<div class="card">
 
-  <a href="terms.html">Terms of Service</a>
+<img src="logo.png" class="logo">
 
-  <a href="privacy.html">Privacy Policy</a>
+<h1>RYZORA</h1>
+
+<p>Official Discord Bot Policy Website</p>
+
+<a class="btn" href="terms.html">
+Terms of Service
+</a>
+
+<a class="btn" href="privacy.html">
+Privacy Policy
+</a>
+
+<div class="footer">
+© 2026 RYZORA BOT
+</div>
+
 </div>
 
 </body>
 </html>
+```
